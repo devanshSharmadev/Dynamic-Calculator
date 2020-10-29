@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Calculator</title>
+    <link rel="icon" type="image/x-icon" href="./icon.png">
+</head>
+<body>
+    <div class="calc">
+        <h3>Dynamic Calculator</h3>
+        <div class="display">
+            <p id="txtbox" class="txtbox">Ur values here...</p>
+        </div>
+        <br>
+        <div class="keys">
+            <div class="leftcol">
+                <input type="button" class="lc lu" onClick="getvalue(this)" value="C">
+                <input type="button" class="lc lu" onClick="getvalue(this)" value="CE">
+                <input type="button" class="lc lu" onClick="getvalue(this)" value="%">
+                <input type="button" class="lc" onClick="getvalue(this)" value="7">
+                <input type="button" class="lc" onClick="getvalue(this)" value="8">
+                <input type="button" class="lc" onClick="getvalue(this)" value="9">
+                <input type="button" class="lc" onClick="getvalue(this)" value="4">
+                <input type="button" class="lc" onClick="getvalue(this)" value="5">
+                <input type="button" class="lc" onClick="getvalue(this)" value="6">
+                <input type="button" class="lc" onClick="getvalue(this)" value="1">
+                <input type="button" class="lc" onClick="getvalue(this)" value="2">
+                <input type="button" class="lc" onClick="getvalue(this)" value="3">
+                <center><input type="button" onClick="getvalue(this)" class="zero" value="0"></center>
+                
+
+            </div>
+            <div class="rightcol">
+
+                <input type="button" class="rc divi" onClick="getvalue(this)" value="/">
+                <input type="button" class="rc mul" onClick="getvalue(this)" value="*">
+                <input type="button" class="rc min" onClick="getvalue(this)" value="-">
+                <input type="button" class="rc add" onClick="getvalue(this)" value="+">
+                <input type="button" class="rc eq" onClick="getvalue(this)" value="=">
+
+            </div>
+        </div>
+        
+        
+    </div>
+    <center>
+    <div class="fr">
+        <h3>Result:</h3>
+        <p id="finalanswer"></p>
+        <h1 id="answ"></h1>
+    </div>
+</center>
+    
+    <script src="./calculator.js"></script>
+</body>
+</html>
