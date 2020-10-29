@@ -1,0 +1,144 @@
+body {
+    background-image: url('./bg.jpg');
+    background-position: 100% 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calc{
+    background-color: #ecf0f1;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 40px;
+    padding: 5px;
+    height: 350px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.fr{
+    background-color: #ecf0f1;
+    height: 150px;
+    width: 200px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+
+}
+.txtbox{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.txtbox:hover{
+    border-width: 0.5px;
+    border-color: #34495e;
+    box-shadow: #3498db;
+
+}
+
+.leftcol{
+    width: 75%;
+    float: left;
+}
+
+.rightcol{
+    width: 25%;
+    float: left;
+}
+
+.lc{
+    width: 31.3333333333333333333333333333333334%;
+    float: left;
+    margin: 1%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3498db;
+    border: 0px;
+    border-radius: 3px;
+}
+.lc:hover{
+    background-color: #2980b9;
+}
+.rc{
+    
+    width: 100%;
+    margin: 3%;
+    float: left;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 0px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.zero{
+    width: 31.3333333333333333333333333333333334%;
+    margin: 1%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3498db;
+    border: 0px;
+    border-radius: 3px;
+    
+}
+
+.zero:hover{
+    background-color: #2980b9;
+}
+
+.lu{
+    background-color: #34495e;
+    color:white
+}
+.lu:hover{
+    background-color: #2c3e50;
+}
+
+.divi{
+    background-color: #1abc9c;
+}
+
+.divi:hover{
+    background-color: #16a085;
+}
+
+.mul{
+    background-color: #f1c40f;
+}
+
+.mul:hover{
+    background-color: #f39c12;
+}
+
+.min{
+    background-color: #e67e22;
+}
+
+.min:hover{
+    background-color: #d35400;
+}
+
+.add{
+    background-color: #e74c3c;
+}
+
+.add:hover{
+    background-color: #c0392b;
+}
+
+.eq{
+    background-color: #95a5a6;
+}
+
+.eq:hover{
+    background-color: #7f8c8d;
+}
+
+.display{
+    margin-right: 20px;
+}
